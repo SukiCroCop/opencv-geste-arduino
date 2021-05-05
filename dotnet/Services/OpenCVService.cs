@@ -226,7 +226,7 @@ namespace Geste.Services
                 });
         }
 
-        // filtriramo vrhove zato što znamo da prsti imaju oštar vrh
+        // filtriramo vrhove zato što znamo da prsti imaju oštar 
         private IEnumerable<DefectVertex> FilterVerticesWithAngle(IEnumerable<DefectVertex> vertices, int maxAngle)
         {
             return vertices.Where(x =>
